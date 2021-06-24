@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.home-container-fluid{
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.home-container{
+    position: absolute;
+    padding: 130px 0 130px 130px;
+    border: 1px solid black;
+}
+
+.home-container-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 1;
+    color: #a0e9ff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.separation{
+    height: 2px;
+    width: 40px;
+    background-color: #ef0d33;
+    margin: 30px 0;
+    border: 1px solid black;
+}
+
+.home-container-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.4;
+    color: black;
+}
+
+#particles-js{
+    height: 521.2px;
+    border: 1px solid black;
+}
