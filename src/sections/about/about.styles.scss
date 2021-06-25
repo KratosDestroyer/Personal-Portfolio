@@ -1,0 +1,79 @@
+.about-section{
+    padding: 120px 130px;
+}
+
+.about-section header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+}
+
+.about-image{
+    flex: 0 0 50%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.about-image img{
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    box-shadow: 12px 0 #2fd6f7, 24px 0 #e864e4, 36px 0 #7beb5b;
+    vertical-align: middle;
+}
+
+.about-description{
+    flex: 0 0 50%;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.greeting{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.small-boi{
+    letter-spacing: 1px;
+    color: black;
+    font-size: 1rem;
+    min-width: 250px;
+    line-height: 1.4;
+}
+
+.social-resume{
+    margin-top: 30px;
+    display: flex;
+}
+
+.resume-link{
+    background-color: #8444df;
+    padding: 15px 35px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    display: inline-block;
+    transition: all 0.3s ease-in;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-list{
+    display: flex;
+    margin-left: 50px;
+}
+
+ul{
+    list-style: none;
+}
